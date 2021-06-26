@@ -12,5 +12,6 @@ makedocs(
 
 deploydocs(
     push_preview = true,
+    versions = nothing,
     repo = "github.com/fredrikekre/documenter-testing.git",
 )
